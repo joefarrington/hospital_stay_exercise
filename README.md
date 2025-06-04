@@ -6,11 +6,15 @@ This repository contains my solution to the Data Science & LLM Technical Assessm
 
 ## Run on Google Colab
 
-1. Open the notebook in Colab: [button]
+<a target="_blank" href="https://colab.research.google.com/github/joefarrington/hospital_stay_exercise/blob/main/solution.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+1. Use the button above the open the notebook in Colab.
 
 2. Check that the notebook is running on a GPU instance (Runtime -> Change runtime type, then check that one of the GPU options is selected)
 
-3. Run the cells to repeat the analysis. The first cells in the notebook will identify that it is being run on Colab and automatically install the Python dependencies, install Ollama, download the LLM model weights and serve the LLM.
+3. Run the cells to repeat the analysis. The first cell in the notebook will identify that it is being run on Colab and automatically install the Python dependencies, install Ollama, download the LLM model weights and start serving the LLM.
 
 ## Run locally
 
@@ -27,6 +31,8 @@ git clone https://github.com/joefarrington/hospital_stay_exercise
 cd hospital_stay_exercise
 # Create a new Python virtual environment
 uv venv
+# Activate the virtual environment
+source .venv/bin/activate
 # Install the Python dependencies
 uv sync
 ```
