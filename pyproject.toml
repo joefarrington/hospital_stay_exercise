@@ -1,0 +1,20 @@
+[project]
+name = "hospital_stay_exercise"
+version = "0.1.0"
+description = "Data Science & LLM Technical Assessment - exercises based on hospital stay data"
+authors = [{name = "Joe Farrington", email = "farrington.joe@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jupyter>=1.1.1",
+    "langchain>=0.3.25",
+    "langchain-ollama>=0.3.3",
+    "matplotlib>=3.10.0",
+    "mlflow>=2.22.0",
+    "numpy>=2.0.2",
+    "optuna>=4.3.0",
+    "pandas>=2.2.2",
+    "pydantic>=2.11.5",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+]
